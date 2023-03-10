@@ -21,5 +21,16 @@ main {
 .page-title {
     margin-bottom: 10%;
 }
-
 /* BASE STYLING END */
+
+/* YTOMPEG STYLING */
+.convert-box{
+    width: 100%;
+    max-width: 800px;
+}
+
+.email-box{
+    width: 100%;
+    max-width: 500px;
+}
+/* YTOMPEG STYLING END */
