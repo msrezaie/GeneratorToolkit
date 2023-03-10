@@ -20,6 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('base.urls', namespace='base')),
     path('ytompeg/', include('ytompeg.urls', namespace='ytompeg')),
-    path('emailgenerator/', include('emailgenerator.urls', namespace='emailgenerator')),
     path('usergenerator/', include('usergenerator.urls', namespace='usergenerator')),
 ]
